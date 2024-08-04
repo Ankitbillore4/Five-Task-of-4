@@ -54,5 +54,40 @@ width:100%;
 
 
 
+.flow {
+  animation-name: flow;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes flow {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+.blue-imoji{
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
+@keyframes rotate {
+  0%{
+    rotate:360deg;
+  }
+ 
+}
 
 
