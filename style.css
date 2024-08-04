@@ -96,3 +96,27 @@ width:100%;
 }
 
 
+
+
+.blue-circle{
+  display: none;
+}
+.side-t-shirt1{
+  display: none;
+}
+
+
+.box1:hover .blue-circle {
+scale:1.2;
+display: inline;
+transition: all ease 4s;
+}
+
+
+.box1:hover .side-t-shirt1 {
+ display: inline;
+ }
+
+ .box1:hover .blue-t-shirt{
+  opacity: 0;
+ }
