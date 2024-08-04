@@ -1,0 +1,1 @@
+document.querySelector("#yeyewellerxp > c-scroll > div:nth-child(4) > div.c-intro.tw-block.lg\\:tw-hidden > span:nth-child(1) > span.c-intro_line_item.-pattern")

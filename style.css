@@ -83,11 +83,16 @@ width:100%;
 
 
 
-@keyframes rotate {
+@keyframes rotate { 
   0%{
     rotate:360deg;
   }
  
+}
+
+@font-face {
+  font-family: helo;
+  src: url(./NaOkcZLOBv5T3oB7Cb4i0xG2bABEwTZXc7yZsWIEzvBfH8JcoVt_c6X1HvwJZVPEHzgCEJvQGxsTfsDHFHTjLI7UisR7Ia1RC-BFnA9CgfI_oYDZPRtZvE52xXPNiPcIDbAHhgb_dHlhvhaLUdDTQMDmMEIFXN5NVhgiWA.woff2);
 }
 
 
