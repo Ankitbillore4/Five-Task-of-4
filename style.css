@@ -105,6 +105,9 @@ width:100%;
   display: none;
 }
 
+.box1{
+  cursor: pointer;
+}
 
 .box1:hover .blue-circle {
 scale:1.2;
@@ -119,4 +122,11 @@ transition: all ease 4s;
 
  .box1:hover .blue-t-shirt{
   opacity: 0;
+ }
+
+ .box1:hover .first-button{
+  scale:1.2;
+  background-color: #37BFF3;
+  border: solid 0.2vw black;
+  border-radius: 30%;
  }
