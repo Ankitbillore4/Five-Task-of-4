@@ -153,3 +153,32 @@ display: none;
   border: solid 0.2vw black;
   border-radius: 30%;
  }
+
+ /* third box... */
+
+ .purple-circle{
+  display: none;
+ }
+
+ .purple-side-img{
+  display: none;
+ }
+
+ .box3:hover .purple-cap-shadow{
+ display: none;
+ }
+
+ .box3:hover .purple-side-img{
+  display: inline;
+ }
+ .box3:hover .purple-circle{
+  display: inline;
+  scale: 1.1;
+ }
+
+ .box3:hover .third-button{
+  scale:1.2;
+  background-color:#A564A8;
+  border: solid 0.2vw black;
+  border-radius: 30%;
+ }
