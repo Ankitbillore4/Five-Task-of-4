@@ -182,3 +182,30 @@ display: none;
   border: solid 0.2vw black;
   border-radius: 30%;
  }
+
+ /* fourth box... */
+
+ .red-circle{
+  display: none;
+ }
+ .white-t-shirt-side{
+  display: none;
+ }
+
+ .fourth-box:hover .white-t-shirt-side{
+ display: inline;
+ }
+ .fourth-box:hover .white-t-shirt-shadow{
+  display: none;
+ }
+ .fourth-box:hover .red-circle{
+  display: inline;
+
+ }
+
+ .fourth-box:hover .fourth-button{
+  scale:1.2;
+  background-color:#F03B42;
+  border: solid 0.2vw black;
+  border-radius: 30%;
+ }
