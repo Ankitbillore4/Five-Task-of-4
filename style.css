@@ -97,6 +97,7 @@ width:100%;
 
 
 
+/* first box... */
 
 .blue-circle{
   display: none;
@@ -104,29 +105,51 @@ width:100%;
 .side-t-shirt1{
   display: none;
 }
-
 .box1{
   cursor: pointer;
 }
-
 .box1:hover .blue-circle {
 scale:1.2;
 display: inline;
 transition: all ease 4s;
 }
-
-
 .box1:hover .side-t-shirt1 {
  display: inline;
  }
-
  .box1:hover .blue-t-shirt{
   opacity: 0;
  }
-
  .box1:hover .first-button{
   scale:1.2;
   background-color: #37BFF3;
+  border: solid 0.2vw black;
+  border-radius: 30%;
+ }
+
+
+ /* second box... */
+
+
+ .pink-circle{
+  display: none;
+ }
+ .side-bag-side-photo{
+  display: none;
+ }
+ .box2:hover .side-bag-side-photo {
+ display: inline;
+ }
+
+ .box2:hover .pink-circle{
+  display: inline;
+  scale:1.1;
+ }
+ .box2:hover .pink-bag-shadow{
+display: none;
+ }
+ .box2:hover .second-button{
+  scale:1.2;
+  background-color: #FF99C8;
   border: solid 0.2vw black;
   border-radius: 30%;
  }
