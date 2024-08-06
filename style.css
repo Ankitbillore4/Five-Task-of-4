@@ -221,3 +221,21 @@ display: none;
   border-radius: 30%;
   transition: all ease 0.3s;
  }
+
+
+ .second-box1:hover .second-first-button{
+  scale:1.2;
+  background-color:#FF99C8;
+  border: solid 0.2vw black;
+  border-radius: 30%;
+  transition: all ease 0.1s;
+ }
+
+ 
+ .second-box2:hover .second-second-button{
+  scale:1.2;
+  background-color:#FF99C8;
+  border: solid 0.2vw black;
+  border-radius: 30%;
+  tr
+ }
