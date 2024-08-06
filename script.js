@@ -75,3 +75,5 @@ secondBox2.addEventListener("mouseleave",()=>{
         shoksShadow.style.opacity=1
         shoksSideImg.style.opacity=0
     })
+
+    // .......................................................
