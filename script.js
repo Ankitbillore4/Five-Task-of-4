@@ -39,3 +39,39 @@ secondBox2.addEventListener("mouseleave",()=>{
 
 // .....................................................
 
+    let secondBox3 = document.querySelector(".second-box3")
+    let brownTshirtShadow = document.querySelector(".brown-tshirt-shadow")
+    let brownTshirtSide = document.querySelector(".brown-tshirt-side")
+    let brownTshirCircle = document.querySelector(".brown-tshirt-circle")
+
+    secondBox3.addEventListener("mouseenter",()=>{
+        brownTshirCircle.style.opacity=1
+        brownTshirtShadow.style.opacity=0
+        brownTshirtSide.style.opacity=1
+    })
+
+    secondBox3.addEventListener("mouseleave",()=>{
+        brownTshirCircle.style.opacity=0
+        brownTshirtShadow.style.opacity=1
+        brownTshirtSide.style.opacity=0
+    })
+
+    // .......................................................
+
+
+    let secondBox4 = document.querySelector(".second-box4")
+    let shoksShadow = document.querySelector('.shoks-shadow')
+    let shoksSideImg = document.querySelector(".shoks-side-img")
+    let shoksCircle = document.querySelector(".shoks-circle")
+
+    secondBox4.addEventListener("mouseenter",()=>{
+        shoksCircle.style.opacity=1
+        shoksShadow.style.opacity=0
+        shoksSideImg.style.opacity=1
+    })
+
+    secondBox4.addEventListener("mouseleave",()=>{
+        shoksCircle.style.opacity=0
+        shoksShadow.style.opacity=1
+        shoksSideImg.style.opacity=0
+    })
