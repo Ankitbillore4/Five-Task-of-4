@@ -77,3 +77,15 @@ secondBox2.addEventListener("mouseleave",()=>{
     })
 
     // .......................................................
+
+
+    let pinkBoxButton = document.querySelector(".pink-box-button")
+    let redBoxButton = document.querySelector(".red-box-button")
+
+    pinkBoxButton.addEventListener("mouseenter",()=>{
+        redBoxButton.style.opacity=0
+    })
+
+    pinkBoxButton.addEventListener("mouseleave",()=>{
+        redBoxButton.style.opacity=1
+    })
