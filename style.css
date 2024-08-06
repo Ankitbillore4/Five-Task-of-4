@@ -111,19 +111,21 @@ width:100%;
 .box1:hover .blue-circle {
 scale:1.2;
 display: inline;
-transition: all ease 4s;
 }
 .box1:hover .side-t-shirt1 {
  display: inline;
  }
  .box1:hover .blue-t-shirt{
   opacity: 0;
+  
  }
  .box1:hover .first-button{
   scale:1.2;
   background-color: #37BFF3;
   border: solid 0.2vw black;
   border-radius: 30%;
+  transition: all ease 0.3s;
+
  }
 
 
@@ -152,6 +154,8 @@ display: none;
   background-color: #FF99C8;
   border: solid 0.2vw black;
   border-radius: 30%;
+  transition: all ease 0.3s;
+
  }
 
  /* third box... */
@@ -181,25 +185,32 @@ display: none;
   background-color:#A564A8;
   border: solid 0.2vw black;
   border-radius: 30%;
+  transition: all ease 0.3s;
+
  }
 
  /* fourth box... */
 
  .red-circle{
   display: none;
+
  }
  .white-t-shirt-side{
   display: none;
+
  }
 
  .fourth-box:hover .white-t-shirt-side{
  display: inline;
+
  }
  .fourth-box:hover .white-t-shirt-shadow{
   display: none;
+
  }
  .fourth-box:hover .red-circle{
   display: inline;
+
 
  }
 
@@ -208,4 +219,5 @@ display: none;
   background-color:#F03B42;
   border: solid 0.2vw black;
   border-radius: 30%;
+  transition: all ease 0.3s;
  }
