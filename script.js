@@ -206,9 +206,14 @@ tl.from(".clouds-box-first",{
     display:"none"
 },"-=0.2")
 
+
 tl.from(".sun-image",{
     y:300,
     duration:0.3,
     opacity:0
 },"-=0.1")
 
+tl.from(".DECAT..",{
+    opacity:1,
+    duration:2
+})
