@@ -285,3 +285,10 @@ display: none;
     transform: translateX(100%);
   }
 }
+
+
+.button-box-fixed{
+  background-color: red;
+  position: fixed;
+  z-index: 9999999999999;
+}

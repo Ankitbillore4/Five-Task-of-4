@@ -213,7 +213,8 @@ tl.from(".sun-image",{
     opacity:0
 },"-=0.1")
 
-tl.from(".DECAT..",{
-    opacity:1,
-    duration:2
-})
+tl.from(".dancinglogo",{
+    opacity:0,
+    duration:0.3,
+    y:100
+},"-=0.2")
