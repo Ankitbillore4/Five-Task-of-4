@@ -89,3 +89,13 @@ secondBox2.addEventListener("mouseleave",()=>{
     pinkBoxButton.addEventListener("mouseleave",()=>{
         redBoxButton.style.opacity=1
     })
+
+
+    // ..............................................
+
+    let videoImage = document.querySelector(".video-image")
+    let videoPlayButton = document.querySelector(".video-play-button")
+    let videoSideImogi = document.querySelector(".video-side-imogi")
+
+
+    

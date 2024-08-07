@@ -257,4 +257,10 @@ display: none;
  }
 
 
- 
+ .video-play-button:hover{
+  scale:1.2;
+ }
+ .video-image:hover{
+  scale:1.2;
+
+ }

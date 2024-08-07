@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -1180,12 +1184,18 @@
                     </div>
                 </div>
             </div>
-            <div class="h-[101vh] w-[100vw] bg-green-300 flex items-center justify-center">
+            <div class="h-[101vh] w-[100vw] bg-green-300 flex items-center justify-center relative">
                 <div class="h-[80%] w-[70%] bg-yellow-200 rounded-[1vw] relative overflow-hidden">
-                    <video class="h-[100%] w-[100%] object-cover" controls loop autoplay muted src="./videoplayback.mp4"></video>
-                    <div class="video-image h-[100%] w-[100%] absolute top-0 left-0 ">
-                        <img class="h-[100%] w-[100%] object-cover border-4 border-black rounded-[1vw]" src="https://decathlon-yeyeweller.index.studio/static/images/video-poster.jpg" alt="">
+                    <video class="h-[100%] w-[100%] object-cover rounded-[1vw]" controls loop autoplay muted src="./videoplayback.mp4"></video>
+                    <div class=" h-[100%] w-[100%] absolute top-0 left-0 overflow-hidden border-4 border-black rounded-[1vw]">
+                        <img class="video-image ease duration-300 h-[100%] w-[100%] object-cover   overflow-hidden" src="https://decathlon-yeyeweller.index.studio/static/images/video-poster.jpg" alt="">
                     </div>
+                </div>
+                <div class="video-play-button ease duration-200 h-[7vw] w-[7vw] rounded-full bg-[#FF99C8] absolute left-[12vw] top-[39vw] flex items-center justify-center border-2 border-black">
+                    <h1 class=""><i class="ri-play-large-fill text-[3vw]"></i></h1>
+                </div>
+                <div class="video-side-imogi absolute right-[7vw] top-[35vw]">
+                    <img class="h-[13vw]" src="https://decathlon-yeyeweller.index.studio/static/images/mascot-video.gif" alt="">
                 </div>
             </div>
 
