@@ -96,6 +96,26 @@ secondBox2.addEventListener("mouseleave",()=>{
     let videoImage = document.querySelector(".video-image")
     let videoPlayButton = document.querySelector(".video-play-button")
     let videoSideImogi = document.querySelector(".video-side-imogi")
+    let pause = document.querySelector(".pause")
+    let play = document.querySelector(".play")
 
 
-    
+
+let flag= 0;
+    videoPlayButton.addEventListener("click",()=>{
+        if(flag===0){
+            videoImage.style.opacity="0"
+            videoSideImogi.style.scale="0"
+            videoSideImogi.style.opacity="0"
+           play.classList.add("hidden")
+           pause.classList.remove("hidden")
+            flag = 1
+        }else{
+            videoImage.style.opacity="1"
+            videoSideImogi.style.scale="1"
+            videoSideImogi.style.opacity="1"
+            play.classList.remove("hidden")
+            pause.classList.add("hidden")
+            flag = 0
+        }
+    })
