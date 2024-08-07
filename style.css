@@ -288,7 +288,7 @@ display: none;
 
 
 .button-box-fixed{
-  background-color: red;
+  /* background-color: red; */
   position: fixed;
   z-index: 9999999999999;
 }
