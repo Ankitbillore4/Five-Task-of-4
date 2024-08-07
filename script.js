@@ -95,7 +95,7 @@ secondBox2.addEventListener("mouseleave",()=>{
 
     let videoImage = document.querySelector(".video-image")
     let videoPlayButton = document.querySelector(".video-play-button")
-    let videoSideImogi = document.querySelector(".video-side-imogi")
+    let videoSideImogi = document.querySelector(".video-side-imogi")    
     let pause = document.querySelector(".pause")
     let play = document.querySelector(".play")
 
