@@ -264,3 +264,24 @@ display: none;
   scale:1.2;
 
  }
+
+
+
+
+ .top-flow-downwala {
+  animation-name: flowd;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes flowd {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
