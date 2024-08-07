@@ -1181,8 +1181,11 @@
                 </div>
             </div>
             <div class="h-[101vh] w-[100vw] bg-green-300 flex items-center justify-center">
-                <div class="h-[80%] w-[70%] bg-yellow-200 rounded-lg">
-                    <video loop autoplay muted src="https://www.youtube.com/embed/ob2DpxTpEyg?si=n6PArYE_ZDLPJ4W0&quot"></video>
+                <div class="h-[80%] w-[70%] bg-yellow-200 rounded-[1vw] relative overflow-hidden">
+                    <video class="h-[100%] w-[100%] object-cover" controls loop autoplay muted src="./videoplayback.mp4"></video>
+                    <div class="video-image h-[100%] w-[100%] absolute top-0 left-0 ">
+                        <img class="h-[100%] w-[100%] object-cover border-4 border-black rounded-[1vw]" src="https://decathlon-yeyeweller.index.studio/static/images/video-poster.jpg" alt="">
+                    </div>
                 </div>
             </div>
 
