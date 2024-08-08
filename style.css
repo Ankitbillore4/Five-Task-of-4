@@ -292,3 +292,10 @@ display: none;
   position: fixed;
   z-index: 9999999999999;
 }
+
+.shop-div:hover 
+.shop-bottom-div{
+  display: none;
+}
+
+

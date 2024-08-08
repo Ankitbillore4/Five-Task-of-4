@@ -218,3 +218,18 @@ tl.from(".dancinglogo",{
     duration:0.3,
     y:100
 },"-=0.2")
+
+
+
+
+
+gsap.to(".two-people-img",{
+    rotate:8,
+    scrollTrigger:{
+        trigger:".page5-inside",
+        scroller:".main-parent",
+        markers:true,
+        start:"top 70%",
+        scrub:true 
+    }
+})
