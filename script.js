@@ -228,8 +228,35 @@ gsap.to(".two-people-img",{
     scrollTrigger:{
         trigger:".page5-inside",
         scroller:".main-parent",
-        markers:true,
         start:"top 70%",
         scrub:true 
     }
+})
+// .........................
+
+
+gsap.to(".video-Image",{
+    rotate:-6,
+    scrollTrigger:{
+        trigger:".page6",
+        scroller:".main-parent",
+        start:"top 70%",
+        scrub:true 
+    }
+})
+// ..............................
+
+let tl2 = gsap.timeline({
+    scrollTrigger:{
+        scroller:".main-parent",
+        trigger:".image1",
+        start:"top 50%",
+        scrub:true
+
+    }
+})
+
+tl2.from(".image1",{
+    scale:0.8,
+    duration:0.3,
 })
