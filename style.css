@@ -37,7 +37,6 @@ body {
   animation-timing-function: linear;
 }
 
-
 @keyframes movee {
   from {
     transform: translateX(0);
