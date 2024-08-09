@@ -1,12 +1,13 @@
-*{
-  margin:0%;
-  padding:0%;
+* {
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 
-html,body{
-height:100%;
-width:100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -74,7 +75,7 @@ width:100%;
 
 
 
-.blue-imoji{
+.blue-imoji {
   animation-name: rotate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -83,11 +84,11 @@ width:100%;
 
 
 
-@keyframes rotate { 
-  0%{
-    rotate:360deg;
+@keyframes rotate {
+  0% {
+    rotate: 360deg;
   }
- 
+
 }
 
 @font-face {
@@ -99,176 +100,191 @@ width:100%;
 
 /* first box... */
 
-.blue-circle{
+.blue-circle {
   display: none;
 }
-.side-t-shirt1{
+
+.side-t-shirt1 {
   display: none;
 }
-.box1{
+
+.box1 {
   cursor: pointer;
 }
+
 .box1:hover .blue-circle {
-scale:1.2;
-display: inline;
+  scale: 1.2;
+  display: inline;
 }
+
 .box1:hover .side-t-shirt1 {
- display: inline;
- }
- .box1:hover .blue-t-shirt{
+  display: inline;
+}
+
+.box1:hover .blue-t-shirt {
   opacity: 0;
-  
- }
- .box1:hover .first-button{
-  scale:1.2;
+
+}
+
+.box1:hover .first-button {
+  scale: 1.2;
   background-color: #37BFF3;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.3s;
 
- }
+}
 
 
- /* second box... */
+/* second box... */
 
 
- .pink-circle{
+.pink-circle {
   display: none;
- }
- .side-bag-side-photo{
-  display: none;
- }
- .box2:hover .side-bag-side-photo {
- display: inline;
- }
+}
 
- .box2:hover .pink-circle{
+.side-bag-side-photo {
+  display: none;
+}
+
+.box2:hover .side-bag-side-photo {
   display: inline;
-  scale:1.1;
- }
- .box2:hover .pink-bag-shadow{
-display: none;
- }
- .box2:hover .second-button{
-  scale:1.2;
+}
+
+.box2:hover .pink-circle {
+  display: inline;
+  scale: 1.1;
+}
+
+.box2:hover .pink-bag-shadow {
+  display: none;
+}
+
+.box2:hover .second-button {
+  scale: 1.2;
   background-color: #FF99C8;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.3s;
 
- }
+}
 
- /* third box... */
+/* third box... */
 
- .purple-circle{
+.purple-circle {
   display: none;
- }
+}
 
- .purple-side-img{
+.purple-side-img {
   display: none;
- }
+}
 
- .box3:hover .purple-cap-shadow{
- display: none;
- }
+.box3:hover .purple-cap-shadow {
+  display: none;
+}
 
- .box3:hover .purple-side-img{
+.box3:hover .purple-side-img {
   display: inline;
- }
- .box3:hover .purple-circle{
+}
+
+.box3:hover .purple-circle {
   display: inline;
   scale: 1.1;
- }
+}
 
- .box3:hover .third-button{
-  scale:1.2;
-  background-color:#A564A8;
+.box3:hover .third-button {
+  scale: 1.2;
+  background-color: #A564A8;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.3s;
 
- }
+}
 
- /* fourth box... */
+/* fourth box... */
 
- .red-circle{
+.red-circle {
   display: none;
 
- }
- .white-t-shirt-side{
+}
+
+.white-t-shirt-side {
   display: none;
 
- }
+}
 
- .fourth-box:hover .white-t-shirt-side{
- display: inline;
+.fourth-box:hover .white-t-shirt-side {
+  display: inline;
 
- }
- .fourth-box:hover .white-t-shirt-shadow{
+}
+
+.fourth-box:hover .white-t-shirt-shadow {
   display: none;
 
- }
- .fourth-box:hover .red-circle{
+}
+
+.fourth-box:hover .red-circle {
   display: inline;
 
 
- }
+}
 
- .fourth-box:hover .fourth-button{
-  scale:1.2;
-  background-color:#F03B42;
+.fourth-box:hover .fourth-button {
+  scale: 1.2;
+  background-color: #F03B42;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.3s;
- }
+}
 
 
- .second-box1:hover .second-first-button{
-  scale:1.2;
-  background-color:#FF99C8;
+.second-box1:hover .second-first-button {
+  scale: 1.2;
+  background-color: #FF99C8;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.1s;
- }
+}
 
- 
- .second-box2:hover .second-second-button{
-  scale:1.2;
-  background-color:#A564A8;
+
+.second-box2:hover .second-second-button {
+  scale: 1.2;
+  background-color: #A564A8;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.1s;
- }
+}
 
- .second-box3:hover .second-third-button{
-  scale:1.2;
-  background-color:#37BFF3;
+.second-box3:hover .second-third-button {
+  scale: 1.2;
+  background-color: #37BFF3;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.1s;
- }
+}
 
- .second-box4:hover .second-fourth-button{
-  scale:1.2;
-  background-color:#37BFF3;
+.second-box4:hover .second-fourth-button {
+  scale: 1.2;
+  background-color: #37BFF3;
   border: solid 0.2vw black;
   border-radius: 30%;
   transition: all ease 0.1s;
- }
+}
 
 
- .video-play-button:hover{
-  scale:1.2;
- }
- .video-image:hover{
-  scale:1.2;
+.video-play-button:hover {
+  scale: 1.2;
+}
 
- }
+.video-image:hover {
+  scale: 1.2;
+
+}
 
 
 
 
- .top-flow-downwala {
+.top-flow-downwala {
   animation-name: flowd;
   animation-duration: 30s;
   animation-iteration-count: infinite;
@@ -287,15 +303,12 @@ display: none;
 }
 
 
-.button-box-fixed{
+.button-box-fixed {
   /* background-color: red; */
   position: fixed;
   z-index: 9999999999999;
 }
 
-.shop-div:hover 
-.shop-bottom-div{
+.shop-div:hover .shop-bottom-div {
   display: none;
 }
-
-
