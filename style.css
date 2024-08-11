@@ -295,7 +295,6 @@ body {
     transform: translateX(100%);
   }
 }
-
 .button-box-fixed {
   /* background-color: red; */
   position: fixed;
