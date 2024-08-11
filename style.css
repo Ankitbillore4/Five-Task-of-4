@@ -285,7 +285,6 @@ body {
   animation-timing-function: linear;
 }
 
-
 @keyframes flowd {
   from {
     transform: translateX(0);
